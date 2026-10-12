@@ -1,0 +1,219 @@
+{
+  "light": {
+    "ambient": 0.25,
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.0,
+    "position": [
+      4.0,
+      7.0,
+      5.0
+    ]
+  },
+  "objects": [
+    {
+      "animation": {
+        "channel": 1,
+        "duration": 4.0,
+        "enabled": false,
+        "from": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "loop": true,
+        "to": [
+          0.0,
+          360.0,
+          0.0
+        ]
+      },
+      "id": 1,
+      "material": {
+        "ambient": 0.20000000298023224,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "diffuse": 0.800000011920929,
+        "shininess": 32.0,
+        "specular": 0.6000000238418579,
+        "texture": 1
+      },
+      "model": "",
+      "name": "Plano 1",
+      "parent": -1,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        8.0,
+        1.0,
+        8.0
+      ],
+      "type": "Plano"
+    },
+    {
+      "animation": {
+        "channel": 1,
+        "duration": 4.0,
+        "enabled": true,
+        "from": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "loop": true,
+        "to": [
+          0.0,
+          360.0,
+          0.0
+        ]
+      },
+      "id": 2,
+      "material": {
+        "ambient": 0.20000000298023224,
+        "color": [
+          0.25,
+          0.6499999761581421,
+          0.8999999761581421
+        ],
+        "diffuse": 0.800000011920929,
+        "shininess": 32.0,
+        "specular": 0.6000000238418579,
+        "texture": 0
+      },
+      "model": "",
+      "name": "Base articulada",
+      "parent": -1,
+      "position": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "Cubo"
+    },
+    {
+      "animation": {
+        "channel": 1,
+        "duration": 4.0,
+        "enabled": false,
+        "from": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "loop": true,
+        "to": [
+          0.0,
+          360.0,
+          0.0
+        ]
+      },
+      "id": 3,
+      "material": {
+        "ambient": 0.20000000298023224,
+        "color": [
+          0.25,
+          0.6499999761581421,
+          0.8999999761581421
+        ],
+        "diffuse": 0.800000011920929,
+        "shininess": 32.0,
+        "specular": 0.6000000238418579,
+        "texture": 0
+      },
+      "model": "",
+      "name": "Brazo hijo",
+      "parent": 2,
+      "position": [
+        0.699999988079071,
+        1.5,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        2.0,
+        0.5
+      ],
+      "type": "Cilindro"
+    },
+    {
+      "animation": {
+        "channel": 1,
+        "duration": 4.0,
+        "enabled": false,
+        "from": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "loop": true,
+        "to": [
+          0.0,
+          360.0,
+          0.0
+        ]
+      },
+      "id": 4,
+      "material": {
+        "ambient": 0.20000000298023224,
+        "color": [
+          0.25,
+          0.6499999761581421,
+          0.8999999761581421
+        ],
+        "diffuse": 0.800000011920929,
+        "shininess": 32.0,
+        "specular": 0.6000000238418579,
+        "texture": 0
+      },
+      "model": "",
+      "name": "Esfera 4",
+      "parent": -1,
+      "position": [
+        2.0,
+        0.5,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "type": "Esfera"
+    }
+  ],
+  "version": 1
+}

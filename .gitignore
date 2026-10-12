@@ -1,0 +1,9 @@
+build/
+cmake-build-*/
+.idea/
+*.exe
+*.o
+*.obj
+!assets/*.obj
+imgui.ini
+escena.json
